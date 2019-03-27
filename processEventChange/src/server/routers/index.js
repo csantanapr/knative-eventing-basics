@@ -4,5 +4,6 @@ module.exports = function (app, server) {
     require('./swagger')(app);
     require('./public')(app);
     require('./health')(app);
+    require('./cloud-event')(app);
 
 };

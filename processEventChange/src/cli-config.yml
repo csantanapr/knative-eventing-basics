@@ -1,7 +1,7 @@
 # The container name used for the run container
-container-name-run: "webappnodejs-express-run"
+container-name-run: "process-event-change"
 # The container name used for the tools container
-container-name-tools: "webappnodejs-express-tools"
+container-name-tools: "process-event-change-tools"
 
 # The project root on the host for the run container to mount to container-path-run
 host-path-run: "."
@@ -30,9 +30,9 @@ dockerfile-run: "Dockerfile"
 dockerfile-tools: "Dockerfile-tools"
 
 # The name of image to create from dockerfile-run
-image-name-run: "csantanapr/webappnodejs-express-run"
+image-name-run: "csantanapr/process-event-change"
 # The name of image to create from dockerfile-tools
-image-name-tools: "csantanapr/webappnodejs-express-tools"
+image-name-tools: "csantanapr/process-event-change-tools"
 
 # The command to build the code and docker image for RUN
 build-cmd-run: "npm install"
